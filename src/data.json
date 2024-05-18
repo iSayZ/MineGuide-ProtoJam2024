@@ -3,7 +3,7 @@
     "id": 1,
     "videoSrc": "https://www.youtube.com/embed/RnnctM5Rf9I?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=RnnctM5Rf9I&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;vq=hd1080",
     "title": "Aquatique",
-    "titleImg": "../assets/images/Aquatique.png",
+    "titleImg": "../assets/images/AQUATIQUE.png",
     "avatarName": "Alexis",
     "avatarText": "Alexis, est un passionne de la nature et de l'environnement marin, qui souhaite partager avec vous la serenite et la splendeur des fonds marins. Alexis vous invite a explorer les merveilles subAquatiques, entoure de coraux chatoyants, de plantes Aquatiques luxuriantes, et d'une faune marine diverse, le tout dans un cadre idyllique et apaisant",
     "houseDescription": "Bienvenue au Gite Aquatique de Minecraft, un havre de paix inspire par le majestueux Temple de l'Eau. Plonge au coeur de l'univers pixelise de Minecraft, ce refuge sous-marin est concu pour offrir une experience unique de deconnexion et de decouverte de la nature Aquatique.\n\nImagine pour etre un sanctuaire de tranquillite, ce gite vous permet de vous immerger dans une retraite spirituelle loin du tumulte quotidien. Ici, la connexion avec la nature est reine, offrant une opportunite rare de renouer avec soi-meme et de trouver un profond sentiment de paix interieure.\n\nPlongez dans l'experience immersive de l'univers Minecraft, ou chaque bloc et chaque pixel sont penses pour eveiller un sentiment de calme et de contemplation. Le Gite Aquatique d'Alexis est plus qu'un simple lieu de sejour; c'est une invitation a decouvrir la beaute silencieuse et l'emerveillement des mondes sous-marins, tout en beneficiant de l'ambiance apaisante d'une retraite spirituelle.",
@@ -41,9 +41,7 @@
       "../assets/images/Aquatique/animales/Poisson_tropical_2.png",
       "../assets/images/Aquatique/animales/turtle.png",
       "../assets/images/Aquatique/animales/Squid.gif",
-      "../assets/images/Aquatique/animales/Dauphin.gif",
-      "../assets/images/Aquatique/animales/Chauve-souris.gif"
-      
+      "../assets/images/Aquatique/animales/Dauphin.gif"      
     ],
     "arrayText": ["text1", "text2", "text3"],
     "skinUrl": "../assets/images/textures/skin1.png",
