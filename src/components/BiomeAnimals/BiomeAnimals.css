@@ -1,0 +1,47 @@
+.animals_container {
+    padding: 3rem;
+}
+
+.card_plants img{
+    background-color: rgba(70, 70, 70, 0.208);
+    width: 120px;
+    height: 120px;
+    padding: 1em;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    box-shadow: rgba(0, 0, 0, 0.37) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    .card_plants img:hover {
+        background-color: rgba(70, 70, 70, 0.508);
+    }
+
+    .card_plants img:active {
+        box-shadow: none;
+    }
+    
+    .card_container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    
+    .card_plants{
+        flex: 1 0 (20%);
+        margin-left: 2.5em;
+        margin-right: 2.5em;
+        margin-bottom: 2em;
+    }
+
+    .animals h3{
+        font-size: 2em;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+    
+    

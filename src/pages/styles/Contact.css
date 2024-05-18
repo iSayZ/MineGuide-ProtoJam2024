@@ -1,0 +1,93 @@
+.title-img.contact_title {
+    width: 40%;
+    animation: show;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_return {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 4;
+}
+
+form {
+    animation: show;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    margin-top: 2rem;
+    width: 50vw;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/images/bg-dirt.png");
+    color: #FFF;
+    position: relative;
+    border: solid 2px #FFF;
+}
+
+form h1 {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+label#name, label#email {
+    margin-right: 1rem;
+    margin-bottom: -0.8rem;
+}
+
+.form_msg {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.btn_form {
+        background: #09b500;
+        background-image: -webkit-linear-gradient(top, #09b500, #008211);
+        background-image: -moz-linear-gradient(top, #09b500, #008211);
+        background-image: -ms-linear-gradient(top, #09b500, #008211);
+        background-image: -o-linear-gradient(top, #09b500, #008211);
+        background-image: linear-gradient(to bottom, #09b500, #008211);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn_form:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+      }
+

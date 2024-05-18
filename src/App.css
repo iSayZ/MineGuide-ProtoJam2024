@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'minecraft';
+  src: url('../assets/fonts/Minecraft.ttf') format('truetype');
+}
+
+#root {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'minecraft';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sound_clic {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.Aquatique {
+  background-color: #008FDB;
+}
+
+.Desertique {
+  background-color: #E1BD80;
+}
+
+.Artique {
+  background-color: #f4f5ff;
+}
+
+.Marecage {
+  background-color: #177e5f;
+}
+
+.btn {
+  background: url('../assets/images/btn.png');
+  background-size: cover;
+  padding: 0.5rem;
+  border: solid black 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  box-shadow: 4.85px 4.85px 0px 0px #AAA inset, -4.85px -7.275px 0px 0px #585858 inset;
+}
+
+.btn:hover,
+.btn_small:hover {
+  border: #fff solid 3px;
+  transition: 0.3s ease;
+}
+
+.btn p {
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: -10px;  
+}
+
+.btn_medium {
+  width: 43%;
+}
+
+.btn_small {
+  position: absolute;
+  border: 3px solid #000;
+  background-color: #6F6F6F;
+  box-shadow: 2.85px 2.85px 0px 0px #AAA inset, -2.85px -5.275px 0px 0px #585858 inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.btn_left {
+  left: -60px;
+} 
+
+.btn_right {
+  right: -60px;
+} 
+
+.btn_small img {
+  max-width: 34px;
+}
+
+.btn_mute {
+  max-height: 32px; 
+}
+
+.biome_return {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  z-index: 5;
+  animation: show;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}

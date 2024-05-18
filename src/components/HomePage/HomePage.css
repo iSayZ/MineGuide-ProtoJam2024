@@ -1,0 +1,96 @@
+.homepage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: show;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.homepage_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homepage_title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.homepage_title img {
+    width: 60%;
+}
+
+.homepage_title .title_label {
+    color: #FF0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -1px -1px 0 #3F3F00, -1px 1px 0 #3F3F00, 1px -1px 0 #3F3F00, 1px 1px 0 #3F3F00;
+    position: absolute;
+    font-size: 1.2em;
+    top: 50px;
+    z-index: 2;
+    margin-left: 500px;
+    animation: zoom;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.title_label.team {
+    margin-left: 450px;
+    top: 60px;
+}
+
+.edition {
+    color: #DFD5D6;
+    font-size: 30px;
+    position: absolute;
+    top: 65px;
+    text-shadow: -3px 0px 0px #130805, 3px 0px 0px #130805, 0px 3px 0px #130805, 0px -3px 0px #130805, -3px -3px 0px #130805, -3px 3px 0px #130805, 4px 3px 0px #130805;
+}
+
+.edition.team {
+    top: 58px;
+    font-size: 30px;
+}
+
+.btn_container_main {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    width: 30vw;
+}
+
+.btn_container_second {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.copyright {
+    margin: 0;
+    color: #fff;
+}
+
+@keyframes show {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes zoom {
+    from {
+      transform: scale(1) rotate(-35deg);
+    }
+  
+    to {
+        transform: scale(1.1) rotate(-35deg);
+    }
+  }

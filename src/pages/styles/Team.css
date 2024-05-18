@@ -1,0 +1,40 @@
+.title-img.team_title {
+    width: 40%;
+    animation: show;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.team_container {
+    color: #FFF;
+    animation: show;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.team_container h2 {
+    text-align: center;
+    margin: 0;
+    margin-top: 2rem;
+    font-size: 1.8em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -1px -1px 0 #3F3F00, -1px 1px 0 #3F3F00, 1px -1px 0 #3F3F00, 1px 1px 0 #3F3F00;
+}
+
+.team_avatar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.team_avatar p {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -1px -1px 0 #3F3F00, -1px 1px 0 #3F3F00, 1px -1px 0 #3F3F00, 1px 1px 0 #3F3F00;
+}
+
+.avatar {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

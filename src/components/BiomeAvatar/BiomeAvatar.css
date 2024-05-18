@@ -1,0 +1,84 @@
+.avatar_title {
+    position: absolute;
+    top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    animation: show;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.avatar_title_img {
+    width: 50%;
+}
+
+.avatar_title_img.artique {
+    width: 35%;
+}
+
+.avatar_title_img.marecage {
+    width: 45%;
+}
+
+.avatar_card{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(5, 5, 5, 0.5);
+    border-radius: 2em;
+    align-items: center;
+}   
+
+.avatar_skin_title {
+ font-size: 1.2rem;
+}
+
+.avatar_card_desc {
+    font-size: 1.1rem;
+    width: 50%;
+    text-align: center;
+}
+
+.avatar_description {
+    color: #FFF;
+    padding: 3rem 5rem;
+    padding-top: 6rem;
+}
+
+.avatar_skin_title{
+    text-align: center;
+} 
+
+.house_container {
+    padding: 3rem 8rem;
+}
+
+.house_main {
+    background-color: rgba(5, 5, 5, 0.5);
+    color: #FFF;
+    padding: 3rem;
+    border-radius: 2em;
+}
+
+.house {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.house_img {
+    width: 400px;
+    height: auto;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    float: right;
+}
+
+.house_desc {
+    font-size: 1.1em;
+}
+
+.house_desc p {
+    margin: 0;
+}

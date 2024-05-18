@@ -1,0 +1,40 @@
+.popup_container {
+    position: fixed;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(3px);
+}
+
+.popup {
+    background-color: rgba(5, 5, 5, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.37) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size: 0.8em;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFF;
+    position: relative;
+    border-radius: 5px;
+    animation: show;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    font-size: 1.1rem;
+}
+
+.btn_small.popup_exit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.popup p {
+    margin: 0;
+    overflow: hidden;
+    overflow-y: visible;
+}
