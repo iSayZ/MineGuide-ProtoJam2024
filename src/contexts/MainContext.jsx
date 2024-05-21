@@ -12,7 +12,7 @@ import {
     music.loop = true;
       
     const [ muteSound, setMuteSound ] = useState(true)
-    const [ volume, setVolume ] = useState(1)
+    const [ volume, setVolume ] = useState(0.2)
     music.volume = volume
      
     const playMusic = () => {
