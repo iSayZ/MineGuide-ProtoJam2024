@@ -26,6 +26,7 @@ import {
     const playSound = () => {
         if (!muteSound) {
             const audio = new Audio("../assets/sounds/minecraft_click.mp3");
+            audio.volume = volume
             audio.play();
         }
       };
@@ -34,6 +35,7 @@ import {
         if (muteSound) {
             playMusic()
             const audio = new Audio("../assets/sounds/minecraft_click.mp3");
+            audio.volume = volume
             audio.play();
         } 
             setMuteSound(!muteSound)
