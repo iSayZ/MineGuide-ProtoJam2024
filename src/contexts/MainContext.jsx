@@ -8,11 +8,11 @@ import {
     children,
   }) {
       
-    let music = new Audio("../assets/sounds/Axolotl.ogg");
+    let music = new Audio("../assets/sounds/c418-wet_hands.mp3");
     music.loop = true;
       
     const [ muteSound, setMuteSound ] = useState(true)
-    const [ volume, setVolume ] = useState(0.2)
+    const [ volume, setVolume ] = useState(0.1)
     music.volume = volume
      
     const playMusic = () => {
