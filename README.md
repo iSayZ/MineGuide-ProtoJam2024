@@ -8,7 +8,7 @@
 
 <div>
   <a href="https://drive.google.com/file/d/15y64Ew6BbUlMvBV36KSg2oy6sgnHBJWo/view?usp=sharing">
-    <img src="https://www.estrine-alexis.fr/assets/github/mineguide.png" alt="Démo" width="400" />
+    <img src="https://portfolio-v1.estrine-alexis.fr/assets/github/mineguide.png" alt="Démo" width="400" />
   </a>
 </div>
 
